@@ -8,7 +8,7 @@
     margin: 0px;
     width: auto;
     height: 55px;
-    background: #1b5589;
+    background: red;
     display: flex;
     text-align: inherit;
     flex-direction: row;
@@ -31,7 +31,7 @@
 }
 .box1{
     max-width: 1000px;
-    border: 1px solid gray;
+    border: 1px solid red;
     margin: 10px auto; 
 }
 .menu11{
