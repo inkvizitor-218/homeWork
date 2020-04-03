@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.menu{
+    max-width: 1000px;
+    margin: 0px;
+    width: auto;
+    height: 55px;
+    background: #1b5589;
+    display: flex;
+    text-align: inherit;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+.item1{
+    margin: 10px;
+    display: flex;
+    text-align: inherit;
+    align-self: stretch;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.box1{
+    max-width: 1000px;
+    border: 1px solid gray;
+    margin: 10px auto; 
+}
+.menu11{
+    content: url(img/firsr.png);
+    display: flex;
+    align-self: start;
+    width:45px;
+    height: 30px;
+    margin-top: 5px;  
+}
+.menu13{
+    content: url(img/av_64.png);
+    width:40px;
+    height: 40px;
+    display: flex;
+    align-self: start; 
+}
+.menu12{
+    display: flex;
+    align-self: start;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.boxmenu12{
+    max-width: 400px;
+    display: flex;  
+}
+a{
+    text-decoration: none;
+    color: #79a0bf;
+}
+a:hover{
+    color: #d5e8f5;
+}
+.menu1{
+    max-width: 1000px;
+    margin: 0px;
+    width: auto;
+    background: #ffffff;
+    display: flex;
+    text-align: inherit;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    margin-top: 10px;
+}
+.item11{
+    margin: 10px;
+    display: flex;
+    text-align: inherit;
+    align-self: stretch;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;
+    flex-direction: row;
+    justify-content: center;
+    background:#ffffff;
+    margin-top: 0px; 
+}
+.item11 span{
+    font-size: 25px;
+    color:#383946
+}
+.menu2{
+    max-width: 1000px;
+    margin: 0px;
+    width: auto;
+    height: 200px;
+    background: #ffffff;
+    display: flex;
+    text-align: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.imgava{
+    content: url(img/av_256.png);
+    width: 100px;  
+}
+.imgava{
+    content:url(img/av_256.png);
+    width:100px;
+    margin: 0 auto;
+}
+.item113334{
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    align-self: flex-start;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 50px;
+    flex-direction: column;
+    justify-content: flex-start;
+    background:#ffffff;
+    margin-top: 0px;
+}
+.item113334 input{
+    width:100px;
+    margin: 0 auto;
+}
+.item113335{
+    margin: 0px;
+    display: flex;
+    text-align: center;
+    align-self: flex-start; 
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 250px;
+    flex-direction: column;
+    justify-content: flex-start;
+    background:#ffffff;
+    margin-top: 0px;
+    
+}
+.item113335 input{
+    margin: 2px;
+    padding: 3px;
+    border: 1px solid #eaecef;
+    border-radius: 5px;
+}
+.item113336{
+
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    align-self: flex-start;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 120px;
+    flex-direction: column;
+    justify-content: flex-start;
+    background:#ffffff;
+    margin-top: 0px;
+}
+.item113336 input{
+    margin: 2px;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid #eaecef;
+}
+.menu14545{
+    margin: 0 auto;
+    flex-basis: 100px;
+    display: flex;
+    text-align: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    justify-content: space-around;
+    align-items: stretch;  
+}
+.borderdiv{
+    display: flex;
+    flex-basis: 980px;
+    margin: 0 auto;
+    background:  #cce5ff;
+    height: 40px;
+    border-radius: 5px;
+    color:#5a84af;
+    font-size: 13px;
+}
+.item1145, .item1146, .item1147{
+    flex-basis: 250px;
+}
+.item1146{
+    flex-basis: 420px;  
+}
+.item1147{
+    flex-basis: 290px;  
+}
+.but11{
+    background: #6c757d;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color:whitesmoke; 
+}
+.item1145, .item1146, .item1147{
+    text-align: center;
+    align-self: center;
+}
